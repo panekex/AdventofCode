@@ -25,8 +25,7 @@ int	ft_strlen(char *s)
 	return (i);
 }
 
-
-int*	get_array(const char *stri, int *size)
+int*	get_array(const char *str, int *size)
 {
 	int	*arr = malloc(10 * sizeof(int));
 	int	count = 0;
